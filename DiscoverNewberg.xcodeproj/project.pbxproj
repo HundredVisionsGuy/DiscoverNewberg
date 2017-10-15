@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4F1A1421F940C40001106EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1A1411F940C40001106EE /* AppDelegate.swift */; };
+		A4F1A1441F940C40001106EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1A1431F940C40001106EE /* ViewController.swift */; };
+		A4F1A1471F940C40001106EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F1A1451F940C40001106EE /* Main.storyboard */; };
+		A4F1A1491F940C40001106EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F1A1481F940C40001106EE /* Assets.xcassets */; };
+		A4F1A14C1F940C40001106EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F1A14A1F940C40001106EE /* LaunchScreen.storyboard */; };
+		A4F1A1571F940C41001106EE /* DiscoverNewbergTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1A1561F940C41001106EE /* DiscoverNewbergTests.swift */; };
+		A4F1A1621F940C41001106EE /* DiscoverNewbergUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1A1611F940C41001106EE /* DiscoverNewbergUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4F1A1531F940C41001106EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F1A1361F940C40001106EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F1A13D1F940C40001106EE;
+			remoteInfo = DiscoverNewberg;
+		};
+		A4F1A15E1F940C41001106EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4F1A1361F940C40001106EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4F1A13D1F940C40001106EE;
+			remoteInfo = DiscoverNewberg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4F1A13E1F940C40001106EE /* DiscoverNewberg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscoverNewberg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F1A1411F940C40001106EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4F1A1431F940C40001106EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4F1A1461F940C40001106EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4F1A1481F940C40001106EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4F1A14B1F940C40001106EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4F1A14D1F940C40001106EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F1A1521F940C41001106EE /* DiscoverNewbergTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoverNewbergTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F1A1561F940C41001106EE /* DiscoverNewbergTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverNewbergTests.swift; sourceTree = "<group>"; };
+		A4F1A1581F940C41001106EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F1A15D1F940C41001106EE /* DiscoverNewbergUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoverNewbergUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F1A1611F940C41001106EE /* DiscoverNewbergUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverNewbergUITests.swift; sourceTree = "<group>"; };
+		A4F1A1631F940C41001106EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F1A13B1F940C40001106EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F1A14F1F940C40001106EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F1A15A1F940C41001106EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4F1A1351F940C40001106EE = {
+			isa = PBXGroup;
+			children = (
+				A4F1A1401F940C40001106EE /* DiscoverNewberg */,
+				A4F1A1551F940C41001106EE /* DiscoverNewbergTests */,
+				A4F1A1601F940C41001106EE /* DiscoverNewbergUITests */,
+				A4F1A13F1F940C40001106EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F1A13F1F940C40001106EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F1A13E1F940C40001106EE /* DiscoverNewberg.app */,
+				A4F1A1521F940C41001106EE /* DiscoverNewbergTests.xctest */,
+				A4F1A15D1F940C41001106EE /* DiscoverNewbergUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F1A1401F940C40001106EE /* DiscoverNewberg */ = {
+			isa = PBXGroup;
+			children = (
+				A4F1A1411F940C40001106EE /* AppDelegate.swift */,
+				A4F1A1431F940C40001106EE /* ViewController.swift */,
+				A4F1A1451F940C40001106EE /* Main.storyboard */,
+				A4F1A1481F940C40001106EE /* Assets.xcassets */,
+				A4F1A14A1F940C40001106EE /* LaunchScreen.storyboard */,
+				A4F1A14D1F940C40001106EE /* Info.plist */,
+			);
+			path = DiscoverNewberg;
+			sourceTree = "<group>";
+		};
+		A4F1A1551F940C41001106EE /* DiscoverNewbergTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F1A1561F940C41001106EE /* DiscoverNewbergTests.swift */,
+				A4F1A1581F940C41001106EE /* Info.plist */,
+			);
+			path = DiscoverNewbergTests;
+			sourceTree = "<group>";
+		};
+		A4F1A1601F940C41001106EE /* DiscoverNewbergUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4F1A1611F940C41001106EE /* DiscoverNewbergUITests.swift */,
+				A4F1A1631F940C41001106EE /* Info.plist */,
+			);
+			path = DiscoverNewbergUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4F1A13D1F940C40001106EE /* DiscoverNewberg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F1A1661F940C41001106EE /* Build configuration list for PBXNativeTarget "DiscoverNewberg" */;
+			buildPhases = (
+				A4F1A13A1F940C40001106EE /* Sources */,
+				A4F1A13B1F940C40001106EE /* Frameworks */,
+				A4F1A13C1F940C40001106EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiscoverNewberg;
+			productName = DiscoverNewberg;
+			productReference = A4F1A13E1F940C40001106EE /* DiscoverNewberg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4F1A1511F940C40001106EE /* DiscoverNewbergTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F1A1691F940C41001106EE /* Build configuration list for PBXNativeTarget "DiscoverNewbergTests" */;
+			buildPhases = (
+				A4F1A14E1F940C40001106EE /* Sources */,
+				A4F1A14F1F940C40001106EE /* Frameworks */,
+				A4F1A1501F940C40001106EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F1A1541F940C41001106EE /* PBXTargetDependency */,
+			);
+			name = DiscoverNewbergTests;
+			productName = DiscoverNewbergTests;
+			productReference = A4F1A1521F940C41001106EE /* DiscoverNewbergTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4F1A15C1F940C41001106EE /* DiscoverNewbergUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F1A16C1F940C41001106EE /* Build configuration list for PBXNativeTarget "DiscoverNewbergUITests" */;
+			buildPhases = (
+				A4F1A1591F940C41001106EE /* Sources */,
+				A4F1A15A1F940C41001106EE /* Frameworks */,
+				A4F1A15B1F940C41001106EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4F1A15F1F940C41001106EE /* PBXTargetDependency */,
+			);
+			name = DiscoverNewbergUITests;
+			productName = DiscoverNewbergUITests;
+			productReference = A4F1A15D1F940C41001106EE /* DiscoverNewbergUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F1A1361F940C40001106EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Chris Winikka";
+				TargetAttributes = {
+					A4F1A13D1F940C40001106EE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A4F1A1511F940C40001106EE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4F1A13D1F940C40001106EE;
+					};
+					A4F1A15C1F940C41001106EE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A4F1A13D1F940C40001106EE;
+					};
+				};
+			};
+			buildConfigurationList = A4F1A1391F940C40001106EE /* Build configuration list for PBXProject "DiscoverNewberg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4F1A1351F940C40001106EE;
+			productRefGroup = A4F1A13F1F940C40001106EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F1A13D1F940C40001106EE /* DiscoverNewberg */,
+				A4F1A1511F940C40001106EE /* DiscoverNewbergTests */,
+				A4F1A15C1F940C41001106EE /* DiscoverNewbergUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4F1A13C1F940C40001106EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F1A14C1F940C40001106EE /* LaunchScreen.storyboard in Resources */,
+				A4F1A1491F940C40001106EE /* Assets.xcassets in Resources */,
+				A4F1A1471F940C40001106EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F1A1501F940C40001106EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F1A15B1F940C41001106EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F1A13A1F940C40001106EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F1A1441F940C40001106EE /* ViewController.swift in Sources */,
+				A4F1A1421F940C40001106EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F1A14E1F940C40001106EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F1A1571F940C41001106EE /* DiscoverNewbergTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F1A1591F940C41001106EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F1A1621F940C41001106EE /* DiscoverNewbergUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4F1A1541F940C41001106EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F1A13D1F940C40001106EE /* DiscoverNewberg */;
+			targetProxy = A4F1A1531F940C41001106EE /* PBXContainerItemProxy */;
+		};
+		A4F1A15F1F940C41001106EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4F1A13D1F940C40001106EE /* DiscoverNewberg */;
+			targetProxy = A4F1A15E1F940C41001106EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4F1A1451F940C40001106EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F1A1461F940C40001106EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4F1A14A1F940C40001106EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F1A14B1F940C40001106EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4F1A1641F940C41001106EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4F1A1651F940C41001106EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4F1A1671F940C41001106EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiscoverNewberg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundredvisions.DiscoverNewberg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4F1A1681F940C41001106EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DiscoverNewberg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundredvisions.DiscoverNewberg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A4F1A16A1F940C41001106EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiscoverNewbergTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundredvisions.DiscoverNewbergTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscoverNewberg.app/DiscoverNewberg";
+			};
+			name = Debug;
+		};
+		A4F1A16B1F940C41001106EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DiscoverNewbergTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundredvisions.DiscoverNewbergTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DiscoverNewberg.app/DiscoverNewberg";
+			};
+			name = Release;
+		};
+		A4F1A16D1F940C41001106EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DiscoverNewbergUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundredvisions.DiscoverNewbergUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DiscoverNewberg;
+			};
+			name = Debug;
+		};
+		A4F1A16E1F940C41001106EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DiscoverNewbergUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hundredvisions.DiscoverNewbergUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DiscoverNewberg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F1A1391F940C40001106EE /* Build configuration list for PBXProject "DiscoverNewberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F1A1641F940C41001106EE /* Debug */,
+				A4F1A1651F940C41001106EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F1A1661F940C41001106EE /* Build configuration list for PBXNativeTarget "DiscoverNewberg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F1A1671F940C41001106EE /* Debug */,
+				A4F1A1681F940C41001106EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4F1A1691F940C41001106EE /* Build configuration list for PBXNativeTarget "DiscoverNewbergTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F1A16A1F940C41001106EE /* Debug */,
+				A4F1A16B1F940C41001106EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4F1A16C1F940C41001106EE /* Build configuration list for PBXNativeTarget "DiscoverNewbergUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F1A16D1F940C41001106EE /* Debug */,
+				A4F1A16E1F940C41001106EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4F1A1361F940C40001106EE /* Project object */;
+}
