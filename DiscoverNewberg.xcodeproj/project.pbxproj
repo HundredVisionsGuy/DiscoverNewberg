@@ -14,6 +14,7 @@
 		A4F1A14C1F940C40001106EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F1A14A1F940C40001106EE /* LaunchScreen.storyboard */; };
 		A4F1A1571F940C41001106EE /* DiscoverNewbergTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1A1561F940C41001106EE /* DiscoverNewbergTests.swift */; };
 		A4F1A1621F940C41001106EE /* DiscoverNewbergUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1A1611F940C41001106EE /* DiscoverNewbergUITests.swift */; };
+		A4F1A1701F940E24001106EE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1A16F1F940E24001106EE /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A4F1A15D1F940C41001106EE /* DiscoverNewbergUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiscoverNewbergUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F1A1611F940C41001106EE /* DiscoverNewbergUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverNewbergUITests.swift; sourceTree = "<group>"; };
 		A4F1A1631F940C41001106EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4F1A16F1F940E24001106EE /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A4F1A1481F940C40001106EE /* Assets.xcassets */,
 				A4F1A14A1F940C40001106EE /* LaunchScreen.storyboard */,
 				A4F1A14D1F940C40001106EE /* Info.plist */,
+				A4F1A16F1F940E24001106EE /* DataService.swift */,
 			);
 			path = DiscoverNewberg;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F1A1701F940E24001106EE /* DataService.swift in Sources */,
 				A4F1A1441F940C40001106EE /* ViewController.swift in Sources */,
 				A4F1A1421F940C40001106EE /* AppDelegate.swift in Sources */,
 			);

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscoverNewberg/DataService.swift"
+            timestampString = "529799097.333829"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverNewberg.DataService.__deallocating_deinit"
+                  moduleName = "DiscoverNewberg"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chriswinikka/Documents/Discover%20Newberg%20Swift/DiscoverNewberg/DiscoverNewberg/DataService.swift"
+                  timestampString = "529798999.715659"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DiscoverNewberg.DataService.deinit"
+                  moduleName = "DiscoverNewberg"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/chriswinikka/Documents/Discover%20Newberg%20Swift/DiscoverNewberg/DiscoverNewberg/DataService.swift"
+                  timestampString = "529798999.727679"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
